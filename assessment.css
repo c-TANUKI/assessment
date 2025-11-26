@@ -1,0 +1,39 @@
+body {
+  background-color: #04a6eb;
+  color: #fdffff;
+    width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+button {
+  padding: 5px 20px;
+  background-color: #337ab7;
+    color: #fdffff;
+  border-style: none;
+}
+/*
+paddingは内側の余白、上下、左右の順番。要素の個数が増えると、上から右回りに指定していく
+*/
+
+/*
+marginは境界線より外側の余白、paddingは境界線より内側の余白。
+左右の広さをoutoにすると、中央寄せになる。
+*/
+
+input {
+  height: 24px;
+}
+
+/*input タグは、入力欄を作るためのタグ。
+type 属性では、入力の形式の指定
+size 属性では、入力欄の大きさ
+maxlength 属性では、この入力欄に入力できる最大の文字数を指定できる。
+button タグは、ボタンを作るためのタグ。
+*/ 
+
+/*
+Webページを作るときには要件を項目化してみるのが大事。
+実際のソフトウェアのような機能を作り込むことなく、見た目だけを作ったものを、モックアップと呼ぶ。
+紙で作ったものをペーパーモックアップと呼ぶ。
+*/
